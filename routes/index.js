@@ -18,7 +18,7 @@ router.get('/variant-b', function(req, res) {
 });
 
 router.get('/confirmation', function(req, res) {
-  res.render('confirmation', { title: 'Success Page!' });
+  res.render('confirmation', { title: 'Success!' });
 });
 
 module.exports = router;
