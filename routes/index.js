@@ -17,8 +17,16 @@ router.get('/variant-b', function(req, res) {
   res.render('variant-b', { title: 'AB-Experiment' });
 });
 
-router.get('/confirmation', function(req, res) {
-  res.render('confirmation', { title: 'Success!' });
+router.get('/mail-confirmation', function(req, res) {
+  res.render('mail-confirmation', { title: 'Mail-in Process' });
+});
+
+router.get('/phone-confirmation', function(req, res) {
+  res.render('phone-confirmation', { title: 'Phone-in Process' });
+});
+
+router.get('/online-confirmation', function(req, res) {
+  res.render('online-confirmation', { title: 'online-confirmation' });
 });
 
 module.exports = router;
