@@ -26,7 +26,7 @@ router.get('/phone-confirmation', function(req, res) {
 });
 
 router.get('/online-confirmation', function(req, res) {
-  res.render('online-confirmation', { title: 'online-confirmation' });
+  res.render('online-confirmation', { title: 'Online Process' });
 });
 
 module.exports = router;
