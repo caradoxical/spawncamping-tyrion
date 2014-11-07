@@ -1,7 +1,8 @@
 doctype html
 html
   head
-    script(src='/javascripts/vendor/ga_exp.js')
+    script
+      include ../public/javascripts/vendor/ga_exp.js
     script.
       utmx('url','A/B');
     meta(charset='utf-8')
